@@ -2,7 +2,7 @@
 	"name": "JAMES",
 	"description": "JAMES - Your Personal Assistant",
 	"launch_path": "/index.html",
-	"package_path": "http://ffoxos.deploy/james.zip",
+	"package_path": "http://deploy.ffoxos/james.zip",
 	"icons": {
 		"128": "/app/img/logo.png"
 	},
