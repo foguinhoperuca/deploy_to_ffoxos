@@ -1,0 +1,14 @@
+{
+	"name": "JAMES",
+	"description": "JAMES - Your Personal Assistant",
+	"launch_path": "/index.html",
+	"package_path": "http://ffoxos.deploy/james.zip",
+	"icons": {
+		"128": "/app/img/logo.png"
+	},
+	"developer": {
+		"name": "Jefferson Campos",
+		"url": "http://jeffersoncampos.eti.br"
+	},
+	"default_locale": "en"
+}
