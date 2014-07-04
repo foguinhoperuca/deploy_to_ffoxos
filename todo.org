@@ -1,0 +1,4 @@
+* TODO Implement option to reinstall
+** TODO Export/backup data beforereinstall
+*** TODO firebase.io
+*** TODO save james_backup_YYYY-MM-DD.json on disk
