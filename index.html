@@ -43,7 +43,7 @@
             <small>Download</small>
             .tar.gz file
           </a>
-          <a href="https://github.com/foguinhoperuca/ffoxos/james/james.zip" class="button">
+          <a id="installJames" href="https://github.com/foguinhoperuca/ffoxos/james/james.zip" class="button">
             <small>Download James</small>
             .zip file
           </a>
@@ -54,18 +54,26 @@
         </aside>
       </div>
     </div>
-    <!-- <script> -->
-    <!--   var manifestUrl = 'http://192.168.0.20/manifest.webapp'; -->
-    <!--   var req = navigator.mozApps.installPackage(manifestUrl); -->
-    <!--   req.onsuccess = function() { -->
-    <!--     alert(this.result.origin); -->
-    <!--   }; -->
-    <!--   req.onerror = function() { -->
-	<!--     alert('ERROR! :('); -->
-	<!--     console.log(this.error); -->
-    <!--     alert(this.error.name); -->
-    <!--   }; -->
-    <!-- </script> -->
-  
+<script type="text/javascript">
+        window.onload = function() {
+          var a = document.getElementById("installJames");
+          a.onclick = function(evt) {
+		    evt.preventDefault();
+
+		    var manifestUrl = 'https://github.com/foguinhoperuca/ffoxos/blob/gh-pages/james/manifest.webapp';
+		    var req = navigator.mozApps.installPackage(manifestUrl);
+  		      req.onsuccess = function() {
+              alert(this.result.origin);
+		    };
+  		    req.onerror = function() {
+	          alert('ERROR! :(');
+	          console.error(this.error);
+              alert(this.error.name);
+		    };
+
+            return false;
+          }
+        }
+    </script>  
   </body>
 </html>
