@@ -8,14 +8,11 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/pygment_trac.css" media="screen" />
     <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print" />
-
     <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
     <title>Deploy to Firefox OS. by foguinhoperuca</title>
   </head>
-
   <body>
     <header>
       <div class="inner">
@@ -24,14 +21,12 @@
         <a href="https://github.com/foguinhoperuca/deploy_to_ffoxos" class="button"><small>View project on</small>GitHub</a>
       </div>
     </header>
-
     <div id="content-wrapper">
       <div class="inner clearfix">
         <section id="main-content">
-          <h1>
-<a name="deploy-to-firefoxos" class="anchor" href="#deploy-to-firefoxos"><span class="octicon octicon-link"></span></a>Deploy to Firefoxos</h1>
-
-<p>Simple server backend to deploy firefoxos app outside from mozilla marketplace.</p>
+          <h1><a name="deploy-to-firefoxos" class="anchor" href="#deploy-to-firefoxos"><span class="octicon octicon-link"></span></a>Deploy to Firefoxos</h1>
+		  <p>Simple server backend to deploy firefoxos app outside from mozilla marketplace.</p>
+          <h2><a id="installJames" href="https://github.com/foguinhoperuca/ffoxos/james/james.zip">Download James .zip file</a></h2>
         </section>
 
         <aside id="sidebar">
@@ -61,6 +56,7 @@
 		    evt.preventDefault();
 
 		    var manifestUrl = 'https://github.com/foguinhoperuca/ffoxos/blob/gh-pages/james/manifest.webapp';
+		    // var manifestUrl = 'http://192.168.1.100/james/manifest.webapp';
 		    var req = navigator.mozApps.installPackage(manifestUrl);
   		      req.onsuccess = function() {
               alert(this.result.origin);
