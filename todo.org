@@ -1,0 +1,9 @@
+* TODO Implement option to reinstall
+** TODO Export/backup data beforere install
+*** DONE firebase.io
+*** TODO save james_backup_YYYY-MM-DD.json on disk
+** TODO Sync data
+*** DONE cloud (firebase.io)
+*** TODO file on disk
+* TODO Merge branch master with github page
+* TODO Rename reposityory name in all machines
