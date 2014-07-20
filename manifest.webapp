@@ -1,0 +1,9 @@
+{
+	"name": "JAMES",
+	"package_path": "http://192.168.0.20/myapp.zip",
+	"version": "0.0.3",
+	"developer": {
+		"name": "Jefferson Campos",
+		"url": "http://jeffersoncampos.eti.br"
+	}
+}
