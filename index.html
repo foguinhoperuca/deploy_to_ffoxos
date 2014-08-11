@@ -55,8 +55,8 @@
           a.onclick = function(evt) {
 		    evt.preventDefault();
 
-		    // var manifestUrl = 'https://github.com/foguinhoperuca/ffoxos/blob/gh-pages/james/manifest.webapp';
-		    var manifestUrl = 'http://192.168.1.103/james/manifest.webapp';
+		    var manifestUrl = 'https://raw.githubusercontent.com/foguinhoperuca/ffxos/gh-pages/james/manifest.webapp';
+		    // var manifestUrl = 'http://192.168.1.100/james/manifest.webapp';
 		    var req = navigator.mozApps.installPackage(manifestUrl);
   		      req.onsuccess = function() {
               alert(this.result.origin);
