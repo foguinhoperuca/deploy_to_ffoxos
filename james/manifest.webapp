@@ -1,6 +1,6 @@
 {
 	"name": "JAMES",
-	"package_path": "https://raw.githubusercontent.com/foguinhoperuca/ffxos/gh-pages/james/JAMES.zip",
+	"package_path": "http://192.168.1.103/james/JAMES.zip",
 	"version": "0.0.8",
 	"developer": {
 		"name": "Jefferson Campos",
