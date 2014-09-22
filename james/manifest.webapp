@@ -1,7 +1,7 @@
 {
 	"name": "JAMES",
 	"package_path": "http://192.168.1.103/james/JAMES.zip",
-	"version": "0.0.9",
+	"version": "0.0.10",
 	"developer": {
 		"name": "Jefferson Campos",
 		"url": "http://jeffersoncampos.eti.br"
